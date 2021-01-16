@@ -38,9 +38,9 @@ $routes->setAutoRoute(true);
 
 $routes->add('product/(:any)/(:any)', 'Shop::product/$1/$2');
 
-$routes->add('blog', function() {
-	return "<h2>This is a blog</h2>";
-});
+// $routes->add('blog', function() {
+// 	return "<h2>This is a blog</h2>";
+// });
 
 // route group
 $routes->group('admin', function($routes) {
